@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+addend --> sum: Add first addend to sum (i = 0)
+addend --> sum: Add second addend to sum (i = 1)
+addend --> sum: Add third addend to sum (i = 2)
+addend --> sum: Add fourth addend to sum (i = 3)
+addend --> sum: Add fifth addend to sum (i = 4)
+addend --> sum: Break out of loop (i = 5)
+@enduml
